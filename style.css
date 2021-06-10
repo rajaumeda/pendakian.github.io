@@ -1,44 +1,43 @@
 body {
-  height: 5000px;
   font-family: "Asap", sans-serif;
 }
 
 .nav-link {
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 
 .jumbotron {
   background-image: url("img/jummbotrone.jpg");
-  background-size: 100%;
-  height: 580px;
+  background-size: cover;
+  height: 540px;
+  margin-top: 90px;
 }
 
 .text-jumbotrone {
   padding-top: 8rem;
-  padding-left: 7rem;
+  padding-left: 1rem;
 }
 
 .btn-jumbotrone {
-  padding-left: 7rem;
+  padding-left: 1rem;
   padding-top: 1rem;
 }
 
 .card {
-  margin-top: 30px;
+  margin-top: 60px;
   background-color: #fbf425;
   font-size: small;
 }
 
 .circle {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 15px;
   color: #000;
   text-align: center;
   background: #fbf425;
-  margin-left: 6rem;
   margin-top: 10px;
 }
 
@@ -48,12 +47,13 @@ body {
 
 h5 {
   color: rgb(88, 88, 88);
+  font-size: small;
 }
 
 .text-sop {
   margin-top: 4rem;
   background-color: #fbf425;
-  height: 550px;
+  height: 500px;
   padding-top: 3rem;
 }
 
@@ -67,9 +67,69 @@ h5 {
 
 .form-pengisian {
   padding-top: 1rem;
-  padding-left: 4rem;
 }
+.text-footer {
+  margin-top: 4rem;
+  background-color: #fbf425;
+  height: 100px;
+  padding-top: 2rem;
+}
+@media (min-width: 992px) {
+  .jumbotron {
+    background-image: url("img/jummbotrone.jpg");
+    background-size: cover;
+    height: 600px;
+    margin-top: 90px;
+  }
 
-.daftar {
-  position: relative;
+  .text-jumbotrone {
+    padding-top: 8rem;
+    padding-left: 7rem;
+  }
+
+  .btn-jumbotrone {
+    padding-left: 7rem;
+    padding-top: 1rem;
+  }
+
+  .card {
+    margin-top: 50px;
+    background-color: #fbf425;
+    font-size: small;
+    width: 28rem;
+  }
+
+  .circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    background: #fbf425;
+    margin-left: 6rem;
+    margin-top: 10px;
+  }
+
+  h5 {
+    color: rgb(88, 88, 88);
+    font-size: medium;
+  }
+
+  .text-sop {
+    margin-top: 4rem;
+    background-color: #fbf425;
+    height: 550px;
+    padding-top: 3rem;
+  }
+
+  .form-pengisian {
+    padding-top: 1rem;
+    padding-left: 4rem;
+  }
+
+  .sop-image {
+    padding-top: 3rem;
+  }
 }
